@@ -4,7 +4,7 @@
         <element label="Writers" max_length="4000" name="writers" type="string"/>
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Country" max_length="250" name="country" type="string"/>
-        <element label="Website" max_length="40" name="website" type="url"/>
+        <element label="Website" max_length="100" name="website" type="url"/>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
