@@ -5,8 +5,8 @@
         <cat_item display_value="Media Review">5eb73573c33e1210a2fabb0d050131d0</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>rating</choice_field>
-        <choice_table>x_1584312_raas_review</choice_table>
+        <choice_field/>
+        <choice_table/>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
@@ -18,15 +18,15 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Movie/TV show/Episode">47acb1f7c33e1210a2fabb0d050131c5</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>rating</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -39,17 +39,17 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>rating</name>
+        <name>poster_url</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>400</order>
+        <order>150</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What rating do you give to the movie?</question_text>
+        <question_text>Poster URL</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -57,7 +57,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1584312_raas_review</record_producer_table>
-        <reference>x_1584312_raas_review</reference>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -69,28 +69,28 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></save_script>
-        <scale_max>10</scale_max>
-        <scale_min>1</scale_min>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:37:51</sys_created_on>
-        <sys_id>9881c27bc33e1210a2fabb0d0501317d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>What rating do you give to the movie?</sys_name>
+        <sys_created_on>2025-01-07 15:15:30</sys_created_on>
+        <sys_id>366d9248c3439210a2fabb0d0501318b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Poster URL</sys_name>
         <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
-        <sys_update_name>item_option_new_9881c27bc33e1210a2fabb0d0501317d</sys_update_name>
+        <sys_update_name>item_option_new_366d9248c3439210a2fabb0d0501318b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 13:34:35</sys_updated_on>
+        <sys_updated_on>2025-01-07 15:20:46</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,7 +98,7 @@
         <validate_regex/>
         <variable_name/>
         <variable_set/>
-        <variable_width>100</variable_width>
+        <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=9881c27bc33e1210a2fabb0d0501317d"/>
-    <fx_price action="delete_multiple" query="id=9881c27bc33e1210a2fabb0d0501317d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=366d9248c3439210a2fabb0d0501318b"/>
+    <fx_price action="delete_multiple" query="id=366d9248c3439210a2fabb0d0501318b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>9881c27bc33e1210a2fabb0d0501317d</id>
+        <id>366d9248c3439210a2fabb0d0501318b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:37:51</sys_created_on>
-        <sys_id>81420a7fc33e1210a2fabb0d050131cb</sys_id>
+        <sys_created_on>2025-01-07 15:15:30</sys_created_on>
+        <sys_id>3a8d9648c3439210a2fabb0d050131b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 18:37:51</sys_updated_on>
+        <sys_updated_on>2025-01-07 15:15:30</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>9881c27bc33e1210a2fabb0d0501317d</id>
+        <id>366d9248c3439210a2fabb0d0501318b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 18:37:51</sys_created_on>
-        <sys_id>41420a7fc33e1210a2fabb0d050131ca</sys_id>
+        <sys_created_on>2025-01-07 15:15:30</sys_created_on>
+        <sys_id>7a8d9648c3439210a2fabb0d050131b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 18:37:51</sys_updated_on>
+        <sys_updated_on>2025-01-07 15:15:30</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
