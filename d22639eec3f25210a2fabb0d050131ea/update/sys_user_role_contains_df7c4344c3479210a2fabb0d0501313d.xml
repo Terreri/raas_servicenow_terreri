@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</contains>
+        <role display_value="x_1584312_raas.moderator" name="x_1584312_raas.moderator">a22679eec3f25210a2fabb0d0501310d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:40:37</sys_created_on>
+        <sys_id>df7c4344c3479210a2fabb0d0501313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver_user.x_1584312_raas.moderator</sys_name>
+        <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
+        <sys_update_name>sys_user_role_contains_df7c4344c3479210a2fabb0d0501313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:40:37</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
