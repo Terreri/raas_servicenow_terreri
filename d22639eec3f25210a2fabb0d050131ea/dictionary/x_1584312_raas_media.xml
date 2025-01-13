@@ -9,9 +9,9 @@
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Episode" sequence="0" value="episodes"/>
-                <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
-                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive="true" inactive_on_update="true" label="Episode" sequence="2" value="episode"/>
+                <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
+                <element inactive_on_update="false" label="Series" sequence="1" value="series"/>
             </choice>
         </element>
         <element label="Production" max_length="250" name="production" type="string"/>
