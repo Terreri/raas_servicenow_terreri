@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>poster</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 14:35:58</sys_created_on>
+        <sys_id>f7971e1ac3cb5210a2fabb0d05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f7971e1ac3cb5210a2fabb0d05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 14:35:58</sys_updated_on>
+        <table>x_1584312_raas_media</table>
+        <ui_policy display_value="Freeze media when state is complete">97d6ded6c3cb5210a2fabb0d0501310a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=f7971e1ac3cb5210a2fabb0d05013146"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</application>
+        <file_path/>
+        <instance_id>f58a338a1b85865477c7cb7b234bcbd8</instance_id>
+        <instance_name>dev247735</instance_name>
+        <name>sys_ui_policy_action_f7971e1ac3cb5210a2fabb0d05013146</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>poster</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 14:35:58</sys_created_on>
+        <sys_id>f7971e1ac3cb5210a2fabb0d05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f7971e1ac3cb5210a2fabb0d05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 14:35:58</sys_updated_on>
+        <table>x_1584312_raas_media</table>
+        <ui_policy display_value="Freeze media when state is complete">97d6ded6c3cb5210a2fabb0d0501310a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7971e1ac3cb5210a2fabb0d05013146"/>
+</record_update>]]></payload>
+        <payload_hash>-123227592</payload_hash>
+        <record_name>poster</record_name>
+        <reverted_from/>
+        <source>5776be1e830312103d6593a6feaad364</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:51:33</sys_created_on>
+        <sys_id>35a6fe5e830312103d6593a6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19465ba44570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:51:33</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>f1a6fe5e97031210b794224d0af60ae5</update_guid>
+        <update_guid_history>f1a6fe5e97031210b794224d0af60ae5:-123227592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:03:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0760778f178641908cc221ee1991c640</sys_id>
+        <sys_metadata>f7971e1ac3cb5210a2fabb0d05013146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
+        <sys_parent display_value="Freeze media when state is complete">97d6ded6c3cb5210a2fabb0d0501310a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
+        <sys_scope_delete display_value="">3dac27a77d79477f8a21be4e7e0e41f9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f7971e1ac3cb5210a2fabb0d05013146</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f7971e1ac3cb5210a2fabb0d05013146">35a6fe5e830312103d6593a6feaad3e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:03:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

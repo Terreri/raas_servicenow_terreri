@@ -2,27 +2,27 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>true</disabled>
-        <field>awards</field>
+        <field>writers</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 14:34:47</sys_created_on>
-        <sys_id>ae571a1ac3cb5210a2fabb0d050131e7</sys_id>
+        <sys_created_on>2025-01-14 17:06:29</sys_created_on>
+        <sys_id>f41afed2834312103d6593a6feaad3d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>awards</sys_name>
+        <sys_name>writers</sys_name>
         <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
-        <sys_update_name>sys_ui_policy_action_ae571a1ac3cb5210a2fabb0d050131e7</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_f41afed2834312103d6593a6feaad3d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 14:34:47</sys_updated_on>
+        <sys_updated_on>2025-01-14 17:06:29</sys_updated_on>
         <table>x_1584312_raas_media</table>
         <ui_policy display_value="Freeze media when state is complete">97d6ded6c3cb5210a2fabb0d0501310a</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=ae571a1ac3cb5210a2fabb0d050131e7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f41afed2834312103d6593a6feaad3d3"/>
 </record_update>
