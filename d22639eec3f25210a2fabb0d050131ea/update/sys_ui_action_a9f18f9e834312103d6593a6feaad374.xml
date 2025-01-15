@@ -7,11 +7,11 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.state == "1" &amp;&amp; current.integration_state == "3" </condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>true</form_context_menu>
+        <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
@@ -33,9 +33,8 @@
         <script><![CDATA[function setCompleted(){
 	g_form.setValue("state", 3);
     g_form.save();
-	
 }]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -45,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9f18f9e834312103d6593a6feaad374</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Set Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
@@ -53,7 +52,7 @@
         <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
         <sys_update_name>sys_ui_action_a9f18f9e834312103d6593a6feaad374</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 17:58:37</sys_updated_on>
+        <sys_updated_on>2025-01-14 20:42:12</sys_updated_on>
         <table>x_1584312_raas_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

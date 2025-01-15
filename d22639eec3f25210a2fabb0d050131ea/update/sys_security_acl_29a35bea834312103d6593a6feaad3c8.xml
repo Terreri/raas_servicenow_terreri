@@ -11,21 +11,21 @@
         <description>Allow create for records in x_1584312_raas_m2m_actor_media, for users with role x_1584312_raas.administrator, and if the ACL condition (x_1584312_raas_media.state=1^EQ) evaluates to true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1584312_raas_m2m_actor_media</name>
-        <operation display_value="create">create</operation>
+        <operation display_value="delete">delete</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 17:16:20</sys_created_on>
-        <sys_id>49cb7a96834312103d6593a6feaad3f6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-01-15 13:36:43</sys_created_on>
+        <sys_id>29a35bea834312103d6593a6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1584312_raas_m2m_actor_media</sys_name>
         <sys_package display_value="RaaS - Gabriel Terreri" source="x_1584312_raas">d22639eec3f25210a2fabb0d050131ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Gabriel Terreri">d22639eec3f25210a2fabb0d050131ea</sys_scope>
-        <sys_update_name>sys_security_acl_49cb7a96834312103d6593a6feaad3f6</sys_update_name>
+        <sys_update_name>sys_security_acl_29a35bea834312103d6593a6feaad3c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 20:57:11</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:36:43</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
