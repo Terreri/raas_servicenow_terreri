@@ -23,7 +23,7 @@
             </choice>
         </element>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
-        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="1" label="State" mandatory="true" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Movie already in database" sequence="200" value="7"/>
                 <element inactive_on_update="false" label="Completed" sequence="300" value="3"/>
